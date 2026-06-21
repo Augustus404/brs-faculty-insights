@@ -75,6 +75,8 @@ def get_teacher_info(teacher_name):
 
     messages = []
     for msg in all_messages:
+        if len(msg) > 300:
+            continue
         if '?' in msg:
             continue
             

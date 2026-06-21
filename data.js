@@ -767,15 +767,15 @@ const coursesData = [
                     },
                     {
                         "name": "AVUTHU AVINASH REDDY",
-                        "score": 5.0,
+                        "score": 6.0,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
                             "Avinash Kumar Mittal is a narcissistic bitch,   He is avg in most aspects,  Positive: won't cut marks in labs  Negative: if he cut your marks in cat for no reason, then good luck in trying to increase it"
                         ],
                         "demerits": [
-                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
-                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
                         ],
                         "vitfac": null
                     }
@@ -834,15 +834,15 @@ const coursesData = [
                     },
                     {
                         "name": "AVUTHU AVINASH REDDY",
-                        "score": 5.0,
+                        "score": 6.0,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
                             "Avinash Kumar Mittal is a narcissistic bitch,   He is avg in most aspects,  Positive: won't cut marks in labs  Negative: if he cut your marks in cat for no reason, then good luck in trying to increase it"
                         ],
                         "demerits": [
-                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
-                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
                         ],
                         "vitfac": null
                     },
@@ -1175,15 +1175,15 @@ const coursesData = [
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 5.0,
+                        "score": 5.3,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
                             "Some of my classmates had Aravindkumar he's also very good"
                         ],
                         "demerits": [
-                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
-                            "Avoid DHAVAKUMAR at all costs"
+                            "Avoid DHAVAKUMAR at all costs",
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
                         ],
                         "vitfac": null
                     },
@@ -1201,15 +1201,15 @@ const coursesData = [
                     },
                     {
                         "name": "RAJESH KUMAR MOHAPATRA",
-                        "score": 5.0,
+                        "score": 5.4,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
                             "Some of my classmates had Aravindkumar he's also very good"
                         ],
                         "demerits": [
-                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
-                            "Avoid DHAVAKUMAR at all costs"
+                            "Avoid DHAVAKUMAR at all costs",
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
                         ],
                         "vitfac": null
                     },
@@ -1394,43 +1394,43 @@ const coursesData = [
                     },
                     {
                         "name": "UMA MAHESWARI S",
-                        "score": 5.0,
+                        "score": 5.3,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
                             "uma Maheswari teaches good"
                         ],
                         "demerits": [
-                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
-                            "Avoid DHAVAKUMAR at all costs"
+                            "Avoid DHAVAKUMAR at all costs",
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
                         ],
                         "vitfac": null
                     },
                     {
                         "name": "ASHISH KUMAR",
-                        "score": 4.5,
+                        "score": 4.7,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
                             "Some of my classmates had Aravindkumar he's also very good"
                         ],
                         "demerits": [
-                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
-                            "Avoid DHAVAKUMAR at all costs"
+                            "Avoid DHAVAKUMAR at all costs",
+                            "Have heard ashish is bad, only 4 people filled his slot when we were entering"
                         ],
                         "vitfac": null
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 5.0,
+                        "score": 5.3,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
                             "Some of my classmates had Aravindkumar he's also very good"
                         ],
                         "demerits": [
-                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
-                            "Avoid DHAVAKUMAR at all costs"
+                            "Avoid DHAVAKUMAR at all costs",
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
                         ],
                         "vitfac": null
                     },
