@@ -90,9 +90,19 @@ def get_teacher_info(teacher_name):
             continue
 
         for part in parts:
-            if part.lower() in msg_lower:
-                messages.append(msg)
-                break
+            part_lower = part.lower()
+            if part_lower in msg_lower:
+                # Prevent matching if followed by a different single-letter initial
+                matches = re.findall(r'\b' + re.escape(part_lower) + r'\s+([a-z])\b', msg_lower)
+                conflict = False
+                for m in matches:
+                    if m not in ['a', 'i', 'u'] and m not in teacher_name.lower().split():
+                        conflict = True
+                        break
+                
+                if not conflict:
+                    messages.append(msg)
+                    break
                 
     pos_count = 0
     neg_count = 0

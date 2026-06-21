@@ -683,22 +683,22 @@ const coursesData = [
                     },
                     {
                         "name": "SRIMATHI C",
-                        "score": 0,
-                        "remarks": "Generally avoided by seniors.",
+                        "score": "N/A",
+                        "remarks": "not available",
                         "merits": [
                             "No specific merits mentioned."
                         ],
                         "demerits": [
-                            "U only  have 1 choice. Don't take srimathi R"
+                            "No specific demerits mentioned."
                         ],
                         "vitfac": null
                     },
                     {
                         "name": "RENUKA DEVI S",
-                        "score": 10,
-                        "remarks": "Highly recommended by seniors.",
+                        "score": "N/A",
+                        "remarks": "not available",
                         "merits": [
-                            "Take devi K  Wonderful teacher, very approachable, gives deserved marks"
+                            "No specific merits mentioned."
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -707,14 +707,13 @@ const coursesData = [
                     },
                     {
                         "name": "T RAJA SREE",
-                        "score": 3.3,
+                        "score": 0,
                         "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "*Analog Electronics* The subject is tough and all teachers give limited marking, A always below 70 unless u got some topper class SANGEETHA R G (AB1-608) - marking is bad in CATs, very good in FAT, quiz marks is bad but its 30/30 if u take project,  usually a topper class SATHYA SREE J (AB1-609) - harsh marking B PRASHANTH KUMAR (AB1-610) - good enough, most get 29 for project, mid teacher; can be taken V.R BALAJI (AB1-301) - okahyissh teacher, DA above 25 BINDU B (AB1-302) - Teaching bad, marking also bad, she makes u suffer in lab also BRINTHA THERESE A (AB1-308) - okayish teaching, da around 25 CHANDRAMAULESHWAR ROY (AB1-309) - okayish teaching, da almost full for projects, usually a topper class"
+                            "No specific merits mentioned."
                         ],
                         "demerits": [
-                            "Compiler Design:-(whom to *Avoid* !!!) Rathna Aravind Kumar S Raja M Indira B Manas Ranjan Prusty Deepika R",
-                            "*Analog Electronics* The subject is tough and all teachers give limited marking, A always below 70 unless u got some topper class SANGEETHA R G (AB1-608) - marking is bad in CATs, very good in FAT, quiz marks is bad but its 30/30 if u take project,  usually a topper class SATHYA SREE J (AB1-609) - harsh marking B PRASHANTH KUMAR (AB1-610) - good enough, most get 29 for project, mid teacher; can be taken V.R BALAJI (AB1-301) - okahyissh teacher, DA above 25 BINDU B (AB1-302) - Teaching bad, marking also bad, she makes u suffer in lab also BRINTHA THERESE A (AB1-308) - okayish teaching, da around 25 CHANDRAMAULESHWAR ROY (AB1-309) - okayish teaching, da almost full for projects, usually a topper class"
+                            "Don't go for sathya sree and prashanth"
                         ],
                         "vitfac": null
                     },
@@ -787,14 +786,13 @@ const coursesData = [
                 "teachers": [
                     {
                         "name": "T RAJA SREE",
-                        "score": 3.3,
+                        "score": 0,
                         "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "*Analog Electronics* The subject is tough and all teachers give limited marking, A always below 70 unless u got some topper class SANGEETHA R G (AB1-608) - marking is bad in CATs, very good in FAT, quiz marks is bad but its 30/30 if u take project,  usually a topper class SATHYA SREE J (AB1-609) - harsh marking B PRASHANTH KUMAR (AB1-610) - good enough, most get 29 for project, mid teacher; can be taken V.R BALAJI (AB1-301) - okahyissh teacher, DA above 25 BINDU B (AB1-302) - Teaching bad, marking also bad, she makes u suffer in lab also BRINTHA THERESE A (AB1-308) - okayish teaching, da around 25 CHANDRAMAULESHWAR ROY (AB1-309) - okayish teaching, da almost full for projects, usually a topper class"
+                            "No specific merits mentioned."
                         ],
                         "demerits": [
-                            "Compiler Design:-(whom to *Avoid* !!!) Rathna Aravind Kumar S Raja M Indira B Manas Ranjan Prusty Deepika R",
-                            "*Analog Electronics* The subject is tough and all teachers give limited marking, A always below 70 unless u got some topper class SANGEETHA R G (AB1-608) - marking is bad in CATs, very good in FAT, quiz marks is bad but its 30/30 if u take project,  usually a topper class SATHYA SREE J (AB1-609) - harsh marking B PRASHANTH KUMAR (AB1-610) - good enough, most get 29 for project, mid teacher; can be taken V.R BALAJI (AB1-301) - okahyissh teacher, DA above 25 BINDU B (AB1-302) - Teaching bad, marking also bad, she makes u suffer in lab also BRINTHA THERESE A (AB1-308) - okayish teaching, da around 25 CHANDRAMAULESHWAR ROY (AB1-309) - okayish teaching, da almost full for projects, usually a topper class"
+                            "Don't go for sathya sree and prashanth"
                         ],
                         "vitfac": null
                     },
@@ -850,14 +848,13 @@ const coursesData = [
                     },
                     {
                         "name": "SANGEETHA N",
-                        "score": 6.0,
-                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "score": 10,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "Sridhar C is quiet good. Sangeetha is very good.",
-                            "*Analog Electronics* The subject is tough and all teachers give limited marking, A always below 70 unless u got some topper class SANGEETHA R G (AB1-608) - marking is bad in CATs, very good in FAT, quiz marks is bad but its 30/30 if u take project,  usually a topper class SATHYA SREE J (AB1-609) - harsh marking B PRASHANTH KUMAR (AB1-610) - good enough, most get 29 for project, mid teacher; can be taken V.R BALAJI (AB1-301) - okahyissh teacher, DA above 25 BINDU B (AB1-302) - Teaching bad, marking also bad, she makes u suffer in lab also BRINTHA THERESE A (AB1-308) - okayish teaching, da around 25 CHANDRAMAULESHWAR ROY (AB1-309) - okayish teaching, da almost full for projects, usually a topper class"
+                            "Sridhar C is quiet good. Sangeetha is very good."
                         ],
                         "demerits": [
-                            "*Analog Electronics* The subject is tough and all teachers give limited marking, A always below 70 unless u got some topper class SANGEETHA R G (AB1-608) - marking is bad in CATs, very good in FAT, quiz marks is bad but its 30/30 if u take project,  usually a topper class SATHYA SREE J (AB1-609) - harsh marking B PRASHANTH KUMAR (AB1-610) - good enough, most get 29 for project, mid teacher; can be taken V.R BALAJI (AB1-301) - okahyissh teacher, DA above 25 BINDU B (AB1-302) - Teaching bad, marking also bad, she makes u suffer in lab also BRINTHA THERESE A (AB1-308) - okayish teaching, da around 25 CHANDRAMAULESHWAR ROY (AB1-309) - okayish teaching, da almost full for projects, usually a topper class"
+                            "No specific demerits mentioned."
                         ],
                         "vitfac": null
                     },
@@ -912,13 +909,13 @@ const coursesData = [
                     },
                     {
                         "name": "SRIMATHI C",
-                        "score": 0,
-                        "remarks": "Generally avoided by seniors.",
+                        "score": "N/A",
+                        "remarks": "not available",
                         "merits": [
                             "No specific merits mentioned."
                         ],
                         "demerits": [
-                            "U only  have 1 choice. Don't take srimathi R"
+                            "No specific demerits mentioned."
                         ],
                         "vitfac": null
                     }
@@ -946,10 +943,10 @@ const coursesData = [
                     },
                     {
                         "name": "KANNIGA DEVI R",
-                        "score": 10,
-                        "remarks": "Highly recommended by seniors.",
+                        "score": "N/A",
+                        "remarks": "not available",
                         "merits": [
-                            "Take devi K  Wonderful teacher, very approachable, gives deserved marks"
+                            "No specific merits mentioned."
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -1095,7 +1092,7 @@ const coursesData = [
                     },
                     {
                         "name": "RADHA R",
-                        "score": 9.1,
+                        "score": 8.6,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Radha R is good faculty here. Had for Java",
@@ -1178,7 +1175,7 @@ const coursesData = [
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 4.8,
+                        "score": 5.0,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
@@ -1204,7 +1201,7 @@ const coursesData = [
                     },
                     {
                         "name": "RAJESH KUMAR MOHAPATRA",
-                        "score": 4.7,
+                        "score": 5.0,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
@@ -1218,11 +1215,11 @@ const coursesData = [
                     },
                     {
                         "name": "RADHA S",
-                        "score": 9.1,
+                        "score": 8.9,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "Radha R is good faculty here. Had for Java",
-                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
+                            "radha mam class very high average easy marks very chil mam yu can take"
                         ],
                         "demerits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
@@ -1411,7 +1408,7 @@ const coursesData = [
                     },
                     {
                         "name": "ASHISH KUMAR",
-                        "score": 4.3,
+                        "score": 4.5,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
@@ -1425,7 +1422,7 @@ const coursesData = [
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 4.8,
+                        "score": 5.0,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
@@ -1452,11 +1449,11 @@ const coursesData = [
                     },
                     {
                         "name": "RADHA S",
-                        "score": 9.1,
+                        "score": 8.9,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "Radha R is good faculty here. Had for Java",
-                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
+                            "radha mam class very high average easy marks very chil mam yu can take"
                         ],
                         "demerits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
