@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRS Faculty Insights | AI & Robotics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #050505;
+            --surface: rgba(20, 20, 25, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --text-primary: #ffffff;
+            --text-secondary: #94a3b8;
+            --accent-1: #00f0ff;
+            --accent-2: #7000ff;
+            --score-high: #10b981;
+            --score-med: #f59e0b;
+            --score-low: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(112, 0, 255, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(0, 240, 255, 0.15), transparent 25%);
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
+
+        .orb {
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: -1;
+            animation: float 20s infinite ease-in-out alternate;
+            opacity: 0.5;
+        }
+        .orb-1 { top: -100px; left: -100px; background: var(--accent-2); }
+        .orb-2 { bottom: -100px; right: -100px; background: var(--accent-1); animation-delay: -10s; }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(100px, 50px) scale(1.2); }
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 2rem 2rem 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--accent-1), var(--accent-2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .search-bar {
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1.2rem 2rem;
+            border-radius: 30px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            outline: none;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-1);
+            box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
+        }
+
+        /* Tabs Interface */
+        .tabs-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        .tab-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
+        }
+
+        .tab-btn:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            color: var(--text-primary);
+        }
+
+        .tab-btn.active {
+            background: rgba(0, 240, 255, 0.1);
+            border-color: var(--accent-1);
+            color: var(--accent-1);
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+        }
+
+        .slot-tabs {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px dashed var(--border);
+        }
+
+        .slot-btn.active {
+            background: rgba(112, 0, 255, 0.15);
+            border-color: var(--accent-2);
+            color: #d8b4fe;
+            box-shadow: 0 0 15px rgba(112, 0, 255, 0.3);
+        }
+
+        /* Mobile Responsiveness for Tabs */
+        @media (max-width: 768px) {
+            .tabs-container {
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                padding-bottom: 0.5rem;
+                /* Hide scrollbar */
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .tabs-container::-webkit-scrollbar {
+                display: none;
+            }
+            .tab-btn {
+                white-space: nowrap;
+                font-size: 0.9rem;
+                padding: 0.6rem 1.2rem;
+                flex-shrink: 0;
+            }
+        }
+
+        /* Course and Slot Grouping */
+        .course-block {
+            margin-bottom: 4rem;
+        }
+
+        .course-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+            color: #fff;
+        }
+
+        .slot-block {
+            margin-bottom: 2.5rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 16px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .slot-title {
+            font-size: 1.4rem;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-1);
+            margin-bottom: 1.5rem;
+            display: inline-block;
+            background: rgba(0, 240, 255, 0.1);
+            padding: 0.4rem 1rem;
+            border-radius: 8px;
+        }
+
+        .teachers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Card Styling */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+
+        .teacher-name {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .score-badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            background: rgba(0,0,0,0.5);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            white-space: nowrap;
+        }
+
+        .score-high { color: var(--score-high); border-color: rgba(16, 185, 129, 0.3); }
+        .score-med { color: var(--score-med); border-color: rgba(245, 158, 11, 0.3); }
+        .score-low { color: var(--score-low); border-color: rgba(239, 68, 68, 0.3); }
+        .score-na { color: var(--text-secondary); }
+
+        .section-title {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .remark-text {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: #cbd5e1;
+            font-style: italic;
+        }
+
+        .merits-demerits {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            background: rgba(0,0,0,0.3);
+            padding: 1rem;
+            border-radius: 12px;
+        }
+
+        .md-item {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.4rem;
+        }
+        
+        .md-text {
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .md-text:hover {
+            color: var(--text-primary);
+        }
+
+        .merit-icon { color: var(--score-high); flex-shrink: 0; }
+        .demerit-icon { color: var(--score-low); flex-shrink: 0; }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            border: 1px dashed var(--border);
+            border-radius: 20px;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 3rem;
+            max-width: 600px;
+            width: 90%;
+            transform: translateY(20px);
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+        }
+
+        .modal-overlay.active .modal {
+            transform: translateY(0);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .modal-close:hover {
+            background: rgba(239, 68, 68, 0.8);
+        }
+
+        .info-btn {
+            background: rgba(0, 240, 255, 0.1);
+            color: var(--accent-1);
+            border: 1px solid rgba(0, 240, 255, 0.3);
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .info-btn:hover {
+            background: rgba(0, 240, 255, 0.2);
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            .course-title { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <header>
+        <h1>BRS Faculty Intelligence</h1>
+        <p class="subtitle">AI & Robotics Division // Course & Slot Organization</p>
+        <div style="margin-top: 1.5rem; font-family: 'JetBrains Mono', monospace; color: #fff;">
+            Total Faculty Profiled: <span id="totalCount" style="color: var(--score-high); font-weight: 800; font-size: 1.2rem;">0</span>
+        </div>
+        <button class="info-btn" onclick="document.getElementById('infoModal').classList.add('active')">View Data Sources</button>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by course, slot, or faculty..." onkeyup="filterData()">
+    </div>
+
+    <div class="container" id="mainContainer">
+        <!-- Content injected by JS -->
+    </div>
+
+    <!-- Data Sources Modal -->
+    <div class="modal-overlay" id="infoModal">
+        <div class="modal">
+            <button class="modal-close" onclick="document.getElementById('infoModal').classList.remove('active')">&times;</button>
+            <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #fff;">Data Sources</h2>
+            <p style="color: var(--text-secondary); line-height: 1.8; font-size: 1.1rem;">
+                This database has been compiled by analyzing student discussions from the WhatsApp groups <strong>'29 FFCS 1.2</strong> and <strong>'29 FFCS 2.1</strong>, as well as by importing live statistics from the <strong>VITFac Website</strong>.
+            </p>
+            <div style="margin-top: 1.5rem; padding: 1.5rem; background: rgba(112, 0, 255, 0.1); border-left: 4px solid var(--accent-2); border-radius: 0 12px 12px 0;">
+                <p style="color: #cbd5e1; line-height: 1.6;">
+                    <strong>Live Sync:</strong> These insights will automatically get updated as new people join the thread and provide feedback on these WhatsApp groups. There is absolutely no need to manually go through thousands of messages anymore.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        function getScoreClass(score) {
+            if (score === 'N/A') return 'score-na';
+            if (score >= 7) return 'score-high';
+            if (score >= 4) return 'score-med';
+            return 'score-low';
+        }
+
+        function truncateStr(str, num) {
+            if (str.length <= num) return str;
+            return str.slice(0, num) + '...';
+        }
+
+        function renderTeacherCard(teacher) {
+            const scoreClass = getScoreClass(teacher.score);
+            const scoreDisplay = teacher.score === 'N/A' ? 'N/A' : teacher.score.toFixed(1) + '/10';
+            
+            let meritsHtml = '';
+            (teacher.merits || []).forEach(m => {
+                if (m && m !== 'not available' && m !== 'No specific merits mentioned.') {
+                    const safeM = m.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                    const truncM = truncateStr(m, 80).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                    meritsHtml += `<div class="md-item"><span class="merit-icon">▲</span> <span class="md-text" title="${safeM}" onclick="this.innerText === this.dataset.full ? this.innerText = this.dataset.trunc : this.innerText = this.dataset.full" data-full="${safeM}" data-trunc="${truncM}">${truncateStr(m, 80)}</span></div>`;
+                }
+            });
+            if(!meritsHtml) meritsHtml = `<div class="md-item"><span class="merit-icon">▲</span> <span>No specific merits mentioned.</span></div>`;
+
+            let demeritsHtml = '';
+            (teacher.demerits || []).forEach(d => {
+                if (d && d !== 'not available' && d !== 'No specific demerits mentioned.') {
+                    const safeD = d.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                    const truncD = truncateStr(d, 80).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+                    demeritsHtml += `<div class="md-item"><span class="demerit-icon">▼</span> <span class="md-text" title="${safeD}" onclick="this.innerText === this.dataset.full ? this.innerText = this.dataset.trunc : this.innerText = this.dataset.full" data-full="${safeD}" data-trunc="${truncD}">${truncateStr(d, 80)}</span></div>`;
+                }
+            });
+            if(!demeritsHtml) demeritsHtml = `<div class="md-item"><span class="demerit-icon">▼</span> <span>No specific demerits mentioned.</span></div>`;
+
+            let vitfacHtml = '';
+            if (teacher.vitfac && (teacher.vitfac.total_reviews > 0 || teacher.vitfac.w_pct > 0)) {
+                const vf = teacher.vitfac;
+                const winRateColor = vf.w_pct >= 50 ? 'var(--score-high)' : 'var(--score-low)';
+                const lectureScore = vf.avg_lecture ? vf.avg_lecture.toFixed(1) : 'N/A';
+                const vibeScore = vf.avg_vibe ? vf.avg_vibe.toFixed(1) : 'N/A';
+                
+                vitfacHtml = `
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(0, 240, 255, 0.05); border-radius: 8px; border: 1px solid rgba(0, 240, 255, 0.2);">
+                    <div class="section-title" style="color: var(--accent-1); margin-bottom: 0.5rem;">VITFac Stats</div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.9rem;">
+                        <div><strong>Win Rate:</strong> <span style="color: ${winRateColor};">${vf.w_pct}%</span></div>
+                        <div><strong>Reviews:</strong> ${vf.total_reviews}</div>
+                        <div><strong>Lecture:</strong> ${lectureScore}/5</div>
+                        <div><strong>Vibe:</strong> ${vibeScore}/5</div>
+                    </div>
+                </div>`;
+            }
+
+            return `
+                <div class="card">
+                    <div class="card-header">
+                        <div>
+                            <h2 class="teacher-name">${teacher.name}</h2>
+                            ${teacher.vitfac && teacher.vitfac.designation ? `<div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.2rem;">${teacher.vitfac.designation}</div>` : ''}
+                        </div>
+                        <div class="score-badge ${scoreClass}">
+                            ${teacher.score !== 'N/A' ? '⚡' : ''} ${scoreDisplay}
+                        </div>
+                    </div>
+                    
+                    ${vitfacHtml}
+
+                    <div class="remarks-container" style="flex-grow: 1;">
+                        <div class="section-title">Verdict</div>
+                        <p class="remark-text">"${teacher.remarks}"</p>
+                    </div>
+
+                    <div class="merits-demerits">
+                        <div>
+                            <div class="section-title">Highlights</div>
+                            ${meritsHtml}
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <div class="section-title">Red Flags</div>
+                            ${demeritsHtml}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        let currentData = [];
+        let selectedCourseIndex = 0;
+        let selectedSlotIndex = 0;
+
+        function selectCourse(cIdx) {
+            selectedCourseIndex = cIdx;
+            selectedSlotIndex = 0; // reset to first slot
+            renderTabs();
+        }
+
+        function selectSlot(sIdx) {
+            selectedSlotIndex = sIdx;
+            renderTabs();
+        }
+
+        function renderTabs() {
+            const container = document.getElementById('mainContainer');
+            container.innerHTML = '';
+
+            if (!currentData || currentData.length === 0) {
+                container.innerHTML = '<div class="empty-state">No matching courses or faculty found.</div>';
+                return;
+            }
+
+            // Validate indices
+            if (selectedCourseIndex >= currentData.length) selectedCourseIndex = 0;
+            const activeCourseObj = currentData[selectedCourseIndex];
+            if (selectedSlotIndex >= activeCourseObj.slots.length) selectedSlotIndex = 0;
+            const activeSlotObj = activeCourseObj.slots[selectedSlotIndex];
+
+            // Render Course Tabs
+            let courseTabsHtml = `<div class="tabs-container course-tabs">`;
+            currentData.forEach((courseObj, i) => {
+                const isActive = (i === selectedCourseIndex) ? 'active' : '';
+                courseTabsHtml += `<button class="tab-btn ${isActive}" onclick="selectCourse(${i})">${courseObj.course_name}</button>`;
+            });
+            courseTabsHtml += `</div>`;
+
+            // Render Slot Tabs
+            let slotTabsHtml = `<div class="tabs-container slot-tabs" style="animation: fadeUp 0.3s ease forwards;">`;
+            activeCourseObj.slots.forEach((slotObj, j) => {
+                const isActive = (j === selectedSlotIndex) ? 'active' : '';
+                slotTabsHtml += `<button class="tab-btn slot-btn ${isActive}" onclick="selectSlot(${j})">${slotObj.slot_name}</button>`;
+            });
+            slotTabsHtml += `</div>`;
+
+            // Render Teachers for active slot
+            const sortedTeachers = [...activeSlotObj.teachers].sort((a, b) => {
+                if (a.score === 'N/A' && b.score === 'N/A') return 0;
+                if (a.score === 'N/A') return 1;
+                if (b.score === 'N/A') return -1;
+                return b.score - a.score;
+            });
+
+            let teachersHtml = sortedTeachers.map((t, index) => renderTeacherCard(t)).join('');
+            
+            let fullHtml = courseTabsHtml + slotTabsHtml + `
+                <div class="teachers-grid" style="animation: fadeUp 0.4s ease forwards;">
+                    ${teachersHtml}
+                </div>
+            `;
+            
+            container.innerHTML = fullHtml;
+        }
+
+        function renderData(data) {
+            currentData = data;
+            selectedCourseIndex = 0;
+            selectedSlotIndex = 0;
+            renderTabs();
+        }
+
+        function filterData() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            if (!query) {
+                renderData(coursesData);
+                return;
+            }
+
+            const filteredCourses = [];
+
+            coursesData.forEach(courseObj => {
+                // If course matches, include all slots
+                if (courseObj.course_name.toLowerCase().includes(query)) {
+                    filteredCourses.push(courseObj);
+                    return;
+                }
+
+                const matchingSlots = [];
+                courseObj.slots.forEach(slotObj => {
+                    // If slot matches, include all teachers in slot
+                    if (slotObj.slot_name.toLowerCase().includes(query)) {
+                        matchingSlots.push(slotObj);
+                        return;
+                    }
+
+                    // Otherwise check teachers
+                    const matchingTeachers = slotObj.teachers.filter(t => t.name.toLowerCase().includes(query));
+                    if (matchingTeachers.length > 0) {
+                        matchingSlots.push({
+                            slot_name: slotObj.slot_name,
+                            teachers: matchingTeachers
+                        });
+                    }
+                });
+
+                if (matchingSlots.length > 0) {
+                    filteredCourses.push({
+                        course_name: courseObj.course_name,
+                        slots: matchingSlots
+                    });
+                }
+            });
+
+            renderData(filteredCourses);
+        }
+
+        // Safe execution context
+        try {
+            document.addEventListener('DOMContentLoaded', () => {
+                if (typeof coursesData !== 'undefined') {
+                    // Calculate total unique teachers
+                    const uniqueTeachers = new Set();
+                    coursesData.forEach(c => {
+                        c.slots.forEach(s => {
+                            s.teachers.forEach(t => uniqueTeachers.add(t.name));
+                        });
+                    });
+                    document.getElementById('totalCount').innerText = uniqueTeachers.size;
+
+                    renderData(coursesData);
+                } else {
+                    document.getElementById('mainContainer').innerHTML = '<div class="empty-state">Failed to load data. Please ensure data.js is generated correctly.</div>';
+                }
+                
+                // Close modal on click outside
+                document.getElementById('infoModal').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        this.classList.remove('active');
+                    }
+                });
+            });
+        } catch (err) {
+            console.error("Error initializing page:", err);
+            document.getElementById('mainContainer').innerHTML = '<div class="empty-state">An error occurred while loading the page.</div>';
+        }
+    </script>
+</body>
+</html>
