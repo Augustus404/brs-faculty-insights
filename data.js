@@ -1157,5 +1157,326 @@ const coursesData = [
                 ]
             }
         ]
+    },
+    {
+        "course_name": "Discrete Mathematics and Linear Algebra",
+        "slots": [
+            {
+                "slot_name": "D1+TD1+T",
+                "teachers": [
+                    {
+                        "name": "MUTHUNAGAI",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "AVINASH KUMAR MITTAL",
+                        "score": 4.8,
+                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "merits": [
+                            "Priyanka Das as well as Niraj Kumar. Great names.",
+                            "Some of my classmates had Aravindkumar he's also very good"
+                        ],
+                        "demerits": [
+                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
+                            "Avoid DHAVAKUMAR at all costs"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "SRIRAMAN R",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "RAJESH KUMAR MOHAPATRA",
+                        "score": 4.7,
+                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "merits": [
+                            "Priyanka Das as well as Niraj Kumar. Great names.",
+                            "Some of my classmates had Aravindkumar he's also very good"
+                        ],
+                        "demerits": [
+                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
+                            "Avoid DHAVAKUMAR at all costs"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "RADHA S",
+                        "score": 9.1,
+                        "remarks": "Highly recommended by seniors.",
+                        "merits": [
+                            "Radha R is good faculty here. Had for Java",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                        ],
+                        "demerits": [
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "PADMAJA N",
+                        "score": 4.0,
+                        "remarks": "Generally avoided by seniors.",
+                        "merits": [
+                            "Padmaja goated Teaches well, lots of practice Ready to help and Approachable person Decent in mark correction and will check for Mark improvement of asked Unconventional in da and kind struct in one sense, but won't be hard and will increase marks if you get classwork question corrected by her",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                        ],
+                        "demerits": [
+                            "Padmaja goated Teaches well, lots of practice Ready to help and Approachable person Decent in mark correction and will check for Mark improvement of asked Unconventional in da and kind struct in one sense, but won't be hard and will increase marks if you get classwork question corrected by her",
+                            "Avoid Ashish Bera and Padmaja"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "ASHIS BERA",
+                        "score": 3.3,
+                        "remarks": "Generally avoided by seniors.",
+                        "merits": [
+                            "Ashis bera my goat",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                        ],
+                        "demerits": [
+                            "Have heard ashish is bad, only 4 people filled his slot when we were entering",
+                            "in maths everyone is mostly decent  just avoid pulak konar, sudip debnath, ashis bera"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "BASUA DEBANANDA",
+                        "score": 10,
+                        "remarks": "Highly recommended by seniors.",
+                        "merits": [
+                            "Basua is good"
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "RUPCHAND SUTRADHAR",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "MEGALA M",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "SHARATH JOSE",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "DHANASEKAR S",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "SARANYA G",
+                        "score": 10,
+                        "remarks": "Highly recommended by seniors.",
+                        "merits": [
+                            "Saranya G is very high class avg but very chill. Teaching is okok"
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    }
+                ]
+            },
+            {
+                "slot_name": "D2+TD2+T",
+                "teachers": [
+                    {
+                        "name": "PULAK KONAR",
+                        "score": 2.5,
+                        "remarks": "Generally avoided by seniors.",
+                        "merits": [
+                            "where is the real goat Pulak konar"
+                        ],
+                        "demerits": [
+                            "Pulak Konar Rajesh Kumar  Mat len galti se bhi",
+                            "in maths everyone is mostly decent  just avoid pulak konar, sudip debnath, ashis bera"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "NATHIYA N",
+                        "score": 10,
+                        "remarks": "Highly recommended by seniors.",
+                        "merits": [
+                            "Nathiya is also good avg could be med to high"
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "RAJIVGANTHI",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "SUKAVANAM N",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "DAVID MAXIM GURURAJ A",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "UMA MAHESWARI S",
+                        "score": 5.0,
+                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "merits": [
+                            "Priyanka Das as well as Niraj Kumar. Great names.",
+                            "uma Maheswari teaches good"
+                        ],
+                        "demerits": [
+                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
+                            "Avoid DHAVAKUMAR at all costs"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "ASHISH KUMAR",
+                        "score": 4.3,
+                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "merits": [
+                            "Priyanka Das as well as Niraj Kumar. Great names.",
+                            "Some of my classmates had Aravindkumar he's also very good"
+                        ],
+                        "demerits": [
+                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
+                            "Avoid DHAVAKUMAR at all costs"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "AVINASH KUMAR MITTAL",
+                        "score": 4.8,
+                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "merits": [
+                            "Priyanka Das as well as Niraj Kumar. Great names.",
+                            "Some of my classmates had Aravindkumar he's also very good"
+                        ],
+                        "demerits": [
+                            "*SAKSHAM 2025-26*  Greetings Volunteers! \ud83c\udf3f  The School of Computer Science and Engineering (SCOPE) and NSS Cell, VIT Chennai, in association with IndianOil and GEO India Foundation, cordially invite you to the SAKSHAM 2025-26 Technical Seminar. Join us for an insightful session with our guest speaker, Dr. Jayakumar Venkatesan (Founder & CEO, Harpy Aerospace), as we discuss sustainable energy and environmental conservation.  \ud83d\udccd *Event Details:* Theme: Conserve Oil & Gas, Go Green \ud83c\udf0e Date: February 12, 2026 (Tomorrow) Time: 2:00 PM Venue: AB3-201, VIT Chennai  \u26a0\ufe0f *Important Notes*: * On-Duty (OD) will be provided to all attendees.   \ud83d\udcdd How to Register: Scan the QR code in the attached poster or the link below to secure your spot. https://forms.gle/tjCLtoAVxv3PhRbZ9  Don't miss this opportunity to learn about the future of green energy and aerospace! All are welcome. \ud83d\ude80  *Student Volunteers:* Avanthika DG 6381449083 Sabbella Santhosh Reddy 7799333212",
+                            "Avoid DHAVAKUMAR at all costs"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "SANKARSAN TARAI",
+                        "score": 0,
+                        "remarks": "Generally avoided by seniors.",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "Don't take sankarsan tarai under any circumstances",
+                            "sanskaran tarai avoid"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "RADHA S",
+                        "score": 9.1,
+                        "remarks": "Highly recommended by seniors.",
+                        "merits": [
+                            "Radha R is good faculty here. Had for Java",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                        ],
+                        "demerits": [
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "DHANASEKAR S",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    }
+                ]
+            }
+        ]
     }
 ];
