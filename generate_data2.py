@@ -173,6 +173,10 @@ processed_teacher_names = set()
 for index, row in df.iterrows():
     course = str(row['Course title']).strip()
     slot = str(row['SLOT']).strip()
+    if slot == 'nan' or slot == 'NIL':
+        lab_slot = str(row['LAB SLOT']).strip()
+        if lab_slot != 'nan' and lab_slot != 'NIL':
+            slot = lab_slot
     fac_name = str(row['FACULTY NAME']).strip()
     
     if course == 'nan' or fac_name == 'nan':
