@@ -63,7 +63,8 @@ def get_teacher_info(teacher_name):
     if teacher_name in teacher_cache:
         return teacher_cache[teacher_name]
         
-    parts = [p for p in teacher_name.split() if len(p) > 2]
+    common_parts = {'kumar', 'kumari', 'singh', 'reddy', 'rao', 'das', 'sharma', 'dr', 'dr.', 'prof', 'prof.', 'mr', 'mrs', 'ms'}
+    parts = [p for p in teacher_name.split() if len(p) > 2 and p.lower() not in common_parts]
     if not parts:
         parts = [teacher_name.replace(" ", "")]
     question_phrases = [

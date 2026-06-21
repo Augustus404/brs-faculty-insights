@@ -1175,15 +1175,15 @@ const coursesData = [
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 5.3,
+                        "score": 6.0,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
-                            "Priyanka Das as well as Niraj Kumar. Great names.",
-                            "Some of my classmates had Aravindkumar he's also very good"
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
+                            "Avinash Kumar Mittal is a narcissistic bitch,   He is avg in most aspects,  Positive: won't cut marks in labs  Negative: if he cut your marks in cat for no reason, then good luck in trying to increase it"
                         ],
                         "demerits": [
-                            "Avoid DHAVAKUMAR at all costs",
-                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
                         ],
                         "vitfac": null
                     },
@@ -1201,15 +1201,13 @@ const coursesData = [
                     },
                     {
                         "name": "RAJESH KUMAR MOHAPATRA",
-                        "score": 5.4,
-                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "score": 0,
+                        "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "Priyanka Das as well as Niraj Kumar. Great names.",
-                            "Some of my classmates had Aravindkumar he's also very good"
+                            "No specific merits mentioned."
                         ],
                         "demerits": [
-                            "Avoid DHAVAKUMAR at all costs",
-                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
+                            "Pulak Konar Rajesh Kumar  Mat len galti se bhi"
                         ],
                         "vitfac": null
                     },
@@ -1408,29 +1406,28 @@ const coursesData = [
                     },
                     {
                         "name": "ASHISH KUMAR",
-                        "score": 4.7,
-                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "score": 0,
+                        "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "Priyanka Das as well as Niraj Kumar. Great names.",
-                            "Some of my classmates had Aravindkumar he's also very good"
+                            "No specific merits mentioned."
                         ],
                         "demerits": [
-                            "Avoid DHAVAKUMAR at all costs",
-                            "Have heard ashish is bad, only 4 people filled his slot when we were entering"
+                            "Have heard ashish is bad, only 4 people filled his slot when we were entering",
+                            "Avoid Ashish Bera and Padmaja"
                         ],
                         "vitfac": null
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 5.3,
+                        "score": 6.0,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
-                            "Priyanka Das as well as Niraj Kumar. Great names.",
-                            "Some of my classmates had Aravindkumar he's also very good"
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
+                            "Avinash Kumar Mittal is a narcissistic bitch,   He is avg in most aspects,  Positive: won't cut marks in labs  Negative: if he cut your marks in cat for no reason, then good luck in trying to increase it"
                         ],
                         "demerits": [
-                            "Avoid DHAVAKUMAR at all costs",
-                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem"
+                            "I don't recommend avinash kumar mittal, doesn't provide any material \ud83d\ude2d took him for probability last sem",
+                            "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
                         ],
                         "vitfac": null
                     },
