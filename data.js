@@ -927,7 +927,7 @@ const coursesData = [
         "course_name": "Problem Solving Using Java",
         "slots": [
             {
-                "slot_name": "C2+TC2",
+                "slot_name": "L37+L38+L43+L44",
                 "teachers": [
                     {
                         "name": "PRADEEP K V",
@@ -952,7 +952,12 @@ const coursesData = [
                             "No specific demerits mentioned."
                         ],
                         "vitfac": null
-                    },
+                    }
+                ]
+            },
+            {
+                "slot_name": "L39+L40+L55+L56",
+                "teachers": [
                     {
                         "name": "SHERLY A",
                         "score": "N/A",
@@ -1002,7 +1007,12 @@ const coursesData = [
                             "I had him for webprog this sem he used to give very tough questions and then give everyone 6-8 marks   Also he gave only 4-5 students S grade(source: marimuthu himself)"
                         ],
                         "vitfac": null
-                    },
+                    }
+                ]
+            },
+            {
+                "slot_name": "L39+L40+L57+L58",
+                "teachers": [
                     {
                         "name": "DOMINIC SAVIO M",
                         "score": 3.3,
@@ -1015,7 +1025,12 @@ const coursesData = [
                             "Don't take dominic"
                         ],
                         "vitfac": null
-                    },
+                    }
+                ]
+            },
+            {
+                "slot_name": "L45+L46+L57+L58",
+                "teachers": [
                     {
                         "name": "DINAKARAN M",
                         "score": 10,
@@ -1064,7 +1079,12 @@ const coursesData = [
                             "No specific demerits mentioned."
                         ],
                         "vitfac": null
-                    },
+                    }
+                ]
+            },
+            {
+                "slot_name": "L5+L6+L37+L38",
+                "teachers": [
                     {
                         "name": "VIJAYAKUMAR K P",
                         "score": "N/A",
@@ -1087,6 +1107,35 @@ const coursesData = [
                         ],
                         "demerits": [
                             "Prakash Or karmel ( strict but teaches good )"
+                        ],
+                        "vitfac": null
+                    }
+                ]
+            },
+            {
+                "slot_name": "L13+L14+L25+L26",
+                "teachers": [
+                    {
+                        "name": "PRADEEP K V",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "VIJAYAKUMAR K P",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
                         ],
                         "vitfac": null
                     },
@@ -1114,7 +1163,29 @@ const coursesData = [
                             "No specific demerits mentioned."
                         ],
                         "vitfac": null
-                    },
+                    }
+                ]
+            },
+            {
+                "slot_name": "L13+L14+L27+L28",
+                "teachers": [
+                    {
+                        "name": "SHERLY A",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    }
+                ]
+            },
+            {
+                "slot_name": "L5+L6+L13+L14",
+                "teachers": [
                     {
                         "name": "SRINIVASAN B",
                         "score": "N/A",
@@ -1126,7 +1197,30 @@ const coursesData = [
                             "No specific demerits mentioned."
                         ],
                         "vitfac": null
-                    },
+                    }
+                ]
+            },
+            {
+                "slot_name": "L5+L6+L19+L20",
+                "teachers": [
+                    {
+                        "name": "DHAVAKUMAR P",
+                        "score": 0,
+                        "remarks": "Generally avoided by seniors.",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "Avoid DHAVAKUMAR at all costs",
+                            "dont take dhavakumar at any cost"
+                        ],
+                        "vitfac": null
+                    }
+                ]
+            },
+            {
+                "slot_name": "L5+L6+L21+L22",
+                "teachers": [
                     {
                         "name": "SIVAKAMI R",
                         "score": "N/A",
@@ -1138,13 +1232,48 @@ const coursesData = [
                             "No specific demerits mentioned."
                         ],
                         "vitfac": null
-                    },
+                    }
+                ]
+            },
+            {
+                "slot_name": "L7+L8+L13+L14",
+                "teachers": [
+                    {
+                        "name": "SIVAKAMI R",
+                        "score": "N/A",
+                        "remarks": "not available",
+                        "merits": [
+                            "No specific merits mentioned."
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    }
+                ]
+            },
+            {
+                "slot_name": "L7+L8+L15+L16",
+                "teachers": [
                     {
                         "name": "JANAKI MEENA M",
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Madura Meenakshi if you want a good knowledgeable teacher, explains well, gives avg marks"
+                        ],
+                        "demerits": [
+                            "No specific demerits mentioned."
+                        ],
+                        "vitfac": null
+                    },
+                    {
+                        "name": "S JAHANGEER SIDIQ",
+                        "score": 10,
+                        "remarks": "Highly recommended by seniors.",
+                        "merits": [
+                            "Jahangeer is goat",
+                            "jahangeer also good"
                         ],
                         "demerits": [
                             "No specific demerits mentioned."

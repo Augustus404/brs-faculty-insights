@@ -7,7 +7,7 @@ df = pd.read_excel('BRS Fall 26-27.xlsx')
 
 # Forward fill for merged cells in Excel
 df['Course title'] = df['Course title'].ffill()
-df['SLOT'] = df['SLOT'].ffill()
+df['SLOT'] = df.groupby('Course title', sort=False)['SLOT'].ffill()
 
 # Load WhatsApp messages
 chat_files = [

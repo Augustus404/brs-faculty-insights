@@ -620,9 +620,6 @@
         let selectedSlotIndex = 0;
 
         function selectCourse(cIdx) {
-            if (currentData[cIdx] && currentData[cIdx].course_name === 'Discrete Mathematics and Linear Algebra') {
-                document.getElementById('easterEggModal').classList.add('active');
-            }
             selectedCourseIndex = cIdx;
             selectedSlotIndex = 0; // reset to first slot
             renderTabs();
