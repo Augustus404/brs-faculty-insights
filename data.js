@@ -7,10 +7,11 @@ const coursesData = [
                 "teachers": [
                     {
                         "name": "RAJESH M",
-                        "score": 0,
-                        "remarks": "Generally avoided by seniors.",
+                        "score": 5.0,
+                        "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Had Rajesh m for Java, he was biased in marking, dint get marks even when my test cases passed Prolly cuz I dint showup to the lab often :(",
+                            "Take rajesh  Very chill fac"
                         ],
                         "demerits": [
                             "Pulak Konar Rajesh Kumar  Mat len galti se bhi"
@@ -58,6 +59,7 @@ const coursesData = [
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
+                            "A SWAMINATHAN\t JOE DHANITH REENA ROY R SOBITHA AHILA S MALATHI D SAHAYA BENI PRATHIBA B BRINDHA SHARMILADEVI S S.A.SAJIDHA SIVABALAKRISHNAN M M. BRAVEEN BHUVANESWARI VISWANATHAN V  Good faculty for database systems please",
                             "Heard brindha is good"
                         ],
                         "demerits": [
@@ -168,10 +170,11 @@ const coursesData = [
                 "teachers": [
                     {
                         "name": "RAJESH M",
-                        "score": 0,
-                        "remarks": "Generally avoided by seniors.",
+                        "score": 5.0,
+                        "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Had Rajesh m for Java, he was biased in marking, dint get marks even when my test cases passed Prolly cuz I dint showup to the lab often :(",
+                            "Take rajesh  Very chill fac"
                         ],
                         "demerits": [
                             "Pulak Konar Rajesh Kumar  Mat len galti se bhi"
@@ -207,6 +210,7 @@ const coursesData = [
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
+                            "A SWAMINATHAN\t JOE DHANITH REENA ROY R SOBITHA AHILA S MALATHI D SAHAYA BENI PRATHIBA B BRINDHA SHARMILADEVI S S.A.SAJIDHA SIVABALAKRISHNAN M M. BRAVEEN BHUVANESWARI VISWANATHAN V  Good faculty for database systems please",
                             "Heard brindha is good"
                         ],
                         "demerits": [
@@ -361,8 +365,8 @@ const coursesData = [
                     },
                     {
                         "name": "PRAKASH P",
-                        "score": 6.7,
-                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "score": 8.0,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Shree prakash is goat....",
                             "Prakash Or karmel ( strict but teaches good )"
@@ -447,13 +451,13 @@ const coursesData = [
                     },
                     {
                         "name": "BALRAJ E",
-                        "score": "N/A",
-                        "remarks": "not available",
+                        "score": 0,
+                        "remarks": "Generally avoided by seniors.",
                         "merits": [
                             "No specific merits mentioned."
                         ],
                         "demerits": [
-                            "No specific demerits mentioned."
+                            "Is balraj e really that bad \ud83d\ude2d"
                         ],
                         "vitfac": null
                     },
@@ -462,7 +466,8 @@ const coursesData = [
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "Kshma Trivedi is my proctor. She's a nice persion, not sure abt academic"
+                            "Kshma Trivedi is my proctor. She's a nice persion, not sure abt academic",
+                            "Good faculty for models of computation  SATHYARAJASEKARAN K RENJITH SURESHKUMAR WI KIRUTHIKA MODIGARI NARENDRA AMUTHA S SUBITHA D KAVITHA J C SARAVANAN P PADMA J SHREE PRAKASH MADURA MEENAKSHI R LAKSHMANAN K"
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -590,7 +595,8 @@ const coursesData = [
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "Kshma Trivedi is my proctor. She's a nice persion, not sure abt academic"
+                            "Kshma Trivedi is my proctor. She's a nice persion, not sure abt academic",
+                            "Good faculty for models of computation  SATHYARAJASEKARAN K RENJITH SURESHKUMAR WI KIRUTHIKA MODIGARI NARENDRA AMUTHA S SUBITHA D KAVITHA J C SARAVANAN P PADMA J SHREE PRAKASH MADURA MEENAKSHI R LAKSHMANAN K"
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -599,8 +605,8 @@ const coursesData = [
                     },
                     {
                         "name": "PRAKASH P",
-                        "score": 6.7,
-                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "score": 8.0,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Shree prakash is goat....",
                             "Prakash Or karmel ( strict but teaches good )"
@@ -646,10 +652,10 @@ const coursesData = [
                     },
                     {
                         "name": "SREEJA P S",
-                        "score": "N/A",
-                        "remarks": "not available",
+                        "score": 10,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Sreeja P S >>>> Good teaching (but you should sit in the first bench for her voice to be audible) Good cat marks, great internals Chill faculty overall"
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -695,10 +701,10 @@ const coursesData = [
                     },
                     {
                         "name": "RENUKA DEVI S",
-                        "score": "N/A",
-                        "remarks": "not available",
+                        "score": 10,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "A SWAMINATHAN\t JOE DHANITH REENA ROY R SOBITHA AHILA S MALATHI D SAHAYA BENI PRATHIBA B BRINDHA SHARMILADEVI S S.A.SAJIDHA SIVABALAKRISHNAN M M. BRAVEEN BHUVANESWARI VISWANATHAN V  Good faculty for database systems please"
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -707,10 +713,11 @@ const coursesData = [
                     },
                     {
                         "name": "T RAJA SREE",
-                        "score": 0,
-                        "remarks": "Generally avoided by seniors.",
+                        "score": 8.3,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Good faculty for models of computation  SATHYARAJASEKARAN K RENJITH SURESHKUMAR WI KIRUTHIKA MODIGARI NARENDRA AMUTHA S SUBITHA D KAVITHA J C SARAVANAN P PADMA J SHREE PRAKASH MADURA MEENAKSHI R LAKSHMANAN K",
+                            "Sreeja P S >>>> Good teaching (but you should sit in the first bench for her voice to be audible) Good cat marks, great internals Chill faculty overall"
                         ],
                         "demerits": [
                             "Don't go for sathya sree and prashanth"
@@ -719,13 +726,14 @@ const coursesData = [
                     },
                     {
                         "name": "VATCHALA S",
-                        "score": 10,
-                        "remarks": "Highly recommended by seniors.",
+                        "score": 6.7,
+                        "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
-                            "Vatchala was my os teacher this sem  Heard Suganya is good too..."
+                            "Vatchala was my os teacher this sem  Heard Suganya is good too...",
+                            "vatchala   very strict teacher , strict correction , if u r nice to her , she is nice to u , if u get caught doing anything wrong once , u r cooked"
                         ],
                         "demerits": [
-                            "No specific demerits mentioned."
+                            "vatchala   very strict teacher , strict correction , if u r nice to her , she is nice to u , if u get caught doing anything wrong once , u r cooked"
                         ],
                         "vitfac": null
                     },
@@ -743,12 +751,13 @@ const coursesData = [
                     },
                     {
                         "name": "RAJESH R",
-                        "score": 0,
+                        "score": 2.5,
                         "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Take rajesh  Very chill fac"
                         ],
                         "demerits": [
+                            "Don't know about her Rajesh r is goated",
                             "Pulak Konar Rajesh Kumar  Mat len galti se bhi"
                         ],
                         "vitfac": null
@@ -767,7 +776,7 @@ const coursesData = [
                     },
                     {
                         "name": "AVUTHU AVINASH REDDY",
-                        "score": 6.0,
+                        "score": 6.7,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
@@ -786,10 +795,11 @@ const coursesData = [
                 "teachers": [
                     {
                         "name": "T RAJA SREE",
-                        "score": 0,
-                        "remarks": "Generally avoided by seniors.",
+                        "score": 8.3,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Good faculty for models of computation  SATHYARAJASEKARAN K RENJITH SURESHKUMAR WI KIRUTHIKA MODIGARI NARENDRA AMUTHA S SUBITHA D KAVITHA J C SARAVANAN P PADMA J SHREE PRAKASH MADURA MEENAKSHI R LAKSHMANAN K",
+                            "Sreeja P S >>>> Good teaching (but you should sit in the first bench for her voice to be audible) Good cat marks, great internals Chill faculty overall"
                         ],
                         "demerits": [
                             "Don't go for sathya sree and prashanth"
@@ -798,13 +808,14 @@ const coursesData = [
                     },
                     {
                         "name": "VATCHALA S",
-                        "score": 10,
-                        "remarks": "Highly recommended by seniors.",
+                        "score": 6.7,
+                        "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
-                            "Vatchala was my os teacher this sem  Heard Suganya is good too..."
+                            "Vatchala was my os teacher this sem  Heard Suganya is good too...",
+                            "vatchala   very strict teacher , strict correction , if u r nice to her , she is nice to u , if u get caught doing anything wrong once , u r cooked"
                         ],
                         "demerits": [
-                            "No specific demerits mentioned."
+                            "vatchala   very strict teacher , strict correction , if u r nice to her , she is nice to u , if u get caught doing anything wrong once , u r cooked"
                         ],
                         "vitfac": null
                     },
@@ -822,19 +833,20 @@ const coursesData = [
                     },
                     {
                         "name": "RAJESH R",
-                        "score": 0,
+                        "score": 2.5,
                         "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Take rajesh  Very chill fac"
                         ],
                         "demerits": [
+                            "Don't know about her Rajesh r is goated",
                             "Pulak Konar Rajesh Kumar  Mat len galti se bhi"
                         ],
                         "vitfac": null
                     },
                     {
                         "name": "AVUTHU AVINASH REDDY",
-                        "score": 6.0,
+                        "score": 6.7,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
@@ -851,6 +863,7 @@ const coursesData = [
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
+                            "Brintha Sangeetha CM Roy  All good, take either",
                             "Sridhar C is quiet good. Sangeetha is very good."
                         ],
                         "demerits": [
@@ -943,13 +956,13 @@ const coursesData = [
                     },
                     {
                         "name": "KANNIGA DEVI R",
-                        "score": "N/A",
-                        "remarks": "not available",
+                        "score": 6.7,
+                        "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "A SWAMINATHAN\t JOE DHANITH REENA ROY R SOBITHA AHILA S MALATHI D SAHAYA BENI PRATHIBA B BRINDHA SHARMILADEVI S S.A.SAJIDHA SIVABALAKRISHNAN M M. BRAVEEN BHUVANESWARI VISWANATHAN V  Good faculty for database systems please"
                         ],
                         "demerits": [
-                            "No specific demerits mentioned."
+                            "dont take kanniga"
                         ],
                         "vitfac": null
                     }
@@ -1099,8 +1112,8 @@ const coursesData = [
                     },
                     {
                         "name": "SENTHIL PRAKASH P N",
-                        "score": 6.7,
-                        "remarks": "Mixed reviews. Proceed with caution.",
+                        "score": 8.0,
+                        "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Shree prakash is goat....",
                             "Prakash Or karmel ( strict but teaches good )"
@@ -1141,7 +1154,7 @@ const coursesData = [
                     },
                     {
                         "name": "RADHA R",
-                        "score": 8.6,
+                        "score": 9.0,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Radha R is good faculty here. Had for Java",
@@ -1260,7 +1273,8 @@ const coursesData = [
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "Madura Meenakshi if you want a good knowledgeable teacher, explains well, gives avg marks"
+                            "Madura Meenakshi if you want a good knowledgeable teacher, explains well, gives avg marks",
+                            "Good faculty for models of computation  SATHYARAJASEKARAN K RENJITH SURESHKUMAR WI KIRUTHIKA MODIGARI NARENDRA AMUTHA S SUBITHA D KAVITHA J C SARAVANAN P PADMA J SHREE PRAKASH MADURA MEENAKSHI R LAKSHMANAN K"
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -1304,7 +1318,7 @@ const coursesData = [
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 6.0,
+                        "score": 6.7,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
@@ -1330,10 +1344,10 @@ const coursesData = [
                     },
                     {
                         "name": "RAJESH KUMAR MOHAPATRA",
-                        "score": 0,
+                        "score": 3.3,
                         "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "No specific merits mentioned."
+                            "Take rajesh  Very chill fac"
                         ],
                         "demerits": [
                             "Pulak Konar Rajesh Kumar  Mat len galti se bhi"
@@ -1342,7 +1356,7 @@ const coursesData = [
                     },
                     {
                         "name": "RADHA S",
-                        "score": 8.9,
+                        "score": 9.2,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
@@ -1369,8 +1383,8 @@ const coursesData = [
                     },
                     {
                         "name": "ASHIS BERA",
-                        "score": 3.3,
-                        "remarks": "Generally avoided by seniors.",
+                        "score": 4.3,
+                        "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Ashis bera my goat",
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )"
@@ -1383,13 +1397,14 @@ const coursesData = [
                     },
                     {
                         "name": "BASUA DEBANANDA",
-                        "score": 10,
-                        "remarks": "Highly recommended by seniors.",
+                        "score": 6.7,
+                        "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
+                            "Take basua goated faculty chill asf, internals are almost full but he does a bit strict correction in exam",
                             "Basua is good"
                         ],
                         "demerits": [
-                            "No specific demerits mentioned."
+                            "Take basua goated faculty chill asf, internals are almost full but he does a bit strict correction in exam"
                         ],
                         "vitfac": null
                     },
@@ -1460,10 +1475,11 @@ const coursesData = [
                 "teachers": [
                     {
                         "name": "PULAK KONAR",
-                        "score": 2.5,
+                        "score": 2.9,
                         "remarks": "Generally avoided by seniors.",
                         "merits": [
-                            "where is the real goat Pulak konar"
+                            "where is the real goat Pulak konar",
+                            "no to pulak konar, heard bad abt him amit kumar rahul has VERY high evg, cause he gives marks to everyone"
                         ],
                         "demerits": [
                             "Pulak Konar Rajesh Kumar  Mat len galti se bhi",
@@ -1476,7 +1492,8 @@ const coursesData = [
                         "score": 10,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
-                            "Nathiya is also good avg could be med to high"
+                            "Nathiya is also good avg could be med to high",
+                            "Nathiya is also good"
                         ],
                         "demerits": [
                             "No specific demerits mentioned."
@@ -1521,11 +1538,11 @@ const coursesData = [
                     },
                     {
                         "name": "UMA MAHESWARI S",
-                        "score": 5.3,
+                        "score": 5.8,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Priyanka Das as well as Niraj Kumar. Great names.",
-                            "uma Maheswari teaches good"
+                            "sugumar  low avg as compared to other, teaches well, good material"
                         ],
                         "demerits": [
                             "Avoid DHAVAKUMAR at all costs",
@@ -1548,7 +1565,7 @@ const coursesData = [
                     },
                     {
                         "name": "AVINASH KUMAR MITTAL",
-                        "score": 6.0,
+                        "score": 6.7,
                         "remarks": "Mixed reviews. Proceed with caution.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",
@@ -1575,7 +1592,7 @@ const coursesData = [
                     },
                     {
                         "name": "RADHA S",
-                        "score": 8.9,
+                        "score": 9.2,
                         "remarks": "Highly recommended by seniors.",
                         "merits": [
                             "Padmaja Radha Avinash mittal Ashis bera ( he was good to me don't jump on me )",

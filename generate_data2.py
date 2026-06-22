@@ -12,7 +12,8 @@ df['SLOT'] = df.groupby('Course title', sort=False)['SLOT'].ffill()
 # Load WhatsApp messages
 chat_files = [
     "WhatsApp Chat with '29 FFCS 1.2.txt", 
-    "WhatsApp Chat with '29 FFCS 2.1.txt"
+    "WhatsApp Chat with '29 FFCS 2.1.txt",
+    "WhatsApp Chat with MIC PlayZone🥸.txt"
 ]
 all_messages = []
 for file in chat_files:
